@@ -1,3 +1,9 @@
+# Below are some functions to work with trees including
+# creating a tree from a dictionary, getting dictionary from the tree,
+# printing the tree with proper indentation, getting the depth of the tree,
+# getting all vertices as a list from the tree, getting vertices at a given depth, etc
+
+
 # Creating the TreeNode class
 class TreeNode:
     def __init__(self, value, left=None, right=None):

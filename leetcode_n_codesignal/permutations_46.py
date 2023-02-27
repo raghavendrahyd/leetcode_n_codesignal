@@ -1,8 +1,10 @@
+# 46. Permutations
+#   Given a collection of distinct integers, return all possible permutations.
 def permute(nums: List[int]) -> List[List[int]]:
     A = nums[:]
-    res=[]
+    res = []
 
-    if (len(A)==1):
+    if len(A) == 1:
         return [A[:]]
 
     for i in range(len(A)):
